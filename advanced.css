@@ -1,0 +1,143 @@
+html, body {
+    margin : 0;
+    font-family : sans-serif;
+    color : #bdc1c6;
+    background : #202124;
+    margin-left : auto;
+    margin-right : auto;
+    width : 100%;
+    height : 100%;
+    font-size : 13px;
+    display : flex;
+    flex-direction : column;
+}
+
+a {
+    text-decoration : none;
+    color : white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#top img {
+    width : 80px;
+    display : flex;
+    justify-content : flex-start;
+    align-items : center;
+    margin-top : 20px;
+    margin-left : 20px;
+}
+
+#top a {
+    display : flex;
+    justify-content : flex-end;
+    align-items : center ;
+    margin-top : -20px;
+    margin-right : 20px;
+}
+
+#advanced-written {
+    padding-top: 45px;
+    padding-left: 40px;
+    color : #f28b82;
+    font-size : 20px;
+    border-bottom: 1px solid #3c4043;
+    padding-bottom : 22px;
+}
+
+#middle {
+    margin-top: 50px;
+    margin-left: 50px;
+    display : flex;
+    justify-content : flex-start;
+    align-items : left;
+    flex-grow : 1;
+    flex-direction : column;
+}
+
+#findpageswith {
+  font-size: 16px;
+  color : white;
+}
+
+input {
+    width : 50%;
+    background : #202124;
+    border : 1px solid #3c4045;
+    color  : #bdc1c6;
+    font-size : 13px;
+    padding : 5px 10px;
+}
+
+input:focus {
+    outline : 0;
+    border : 1px solid #8ab4f8;
+}
+
+#input1 {
+    margin-left : 83px;
+}
+
+#input2 {
+    margin-left : 24px;
+}
+
+#input3 {
+    margin-left : 60px;
+}
+
+#input4 {
+    margin-left : 67px;
+}
+
+#searchbtn {
+    width : auto;
+    background : #8ab4f8;
+    color : #202124;
+    font-size : 12px;
+    font-weight : bold;
+    padding : 8px 12px;
+    border-color : #8ab4f8;
+    border-radius : 3px;
+}
+
+
+#footer {
+    background  : #171717;
+    
+}
+
+#footer a {
+    margin-left : 15px;
+    margin-right : 15px;
+}
+
+#country-name {
+    padding-top : 15px;
+    padding-bottom : 15px;
+    padding-left : 30px;
+    font-size : 15px;
+}
+
+#bottom-links {
+    border-top : 1px solid #212327;
+    padding-top : 15px;
+    padding-bottom : 15px;
+    display : flex;
+}
+
+#links-1 {
+    margin-left : 20px;
+    flex : 1;
+}
+
+
+
+
+
+
+
+
+
